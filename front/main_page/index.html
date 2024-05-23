@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My library</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../header.css">
+    <script src="../header.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" ></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html" class="main">Main page</a>
+            <a href="../admin_validation/index.html" class="admin">Admin page</a>
+            <a href="../random_facts_page/index.html" class="facts">Random facts about books</a>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="What are you looking for?" class="search" onkeyup="searchBooks()">
+        <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <a href="../admin_validation/index.html"><img src="../../resources/icons/admin.png" alt="admin_icon" class="icon"/></a>
+</div>
+<div class="menu">
+
+    <a href="../Genres/index.html" >Genres</a>
+    <a href="../Authors/index.html">Authors</a>
+    <a href="../Keywords/index.html">Keywords</a>
+    <a href="../books_list/index.html">Full list</a>
+
+</div>
+<div class="main">
+    <p class="prev">Recommended</p>
+    <hr/>
+<div class="box">
+
+    <div class="container">
+        <div class="slider-wrapper">
+            <!-- Previous Slide Button -->
+            <button id="prev-slide" class="slide-button material-symbols-rounded">&#8249;</button>
+
+            <div class="image-list">
+                <!-- Image Items -->
+                <div class="image-item-wrapper">
+                    <a href="" id="link-1" class="image-link">
+                        <img src="" alt="img-1" id="img-1" class="image-item">
+                    </a>
+                    <a href="" id="name-1" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-2" class="image-link">
+                        <img src="" alt="img-2" id="img-2" class="image-item">
+                    </a>
+                <a href="" id="name-2" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-3" class="image-link">
+                    <img src="" alt="img-3" id="img-3" class="image-item">
+                    </a>
+                <a href="" id="name-3" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-4" class="image-link">
+                    <img src="" alt="img-4" id="img-4" class="image-item">
+                    </a>
+                <a href="" id="name-4" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-5" class="image-link">
+                    <img src="" alt="img-5" id="img-5" class="image-item">
+                    </a>
+                <a href="" id="name-5" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-6" class="image-link">
+                        <img src="" alt="img-6" id="img-6" class="image-item">
+                    </a>
+                <a href="" id="name-6" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-7" class="image-link">
+                        <img src="" alt="img-7" id="img-7" class="image-item">
+                    </a>
+                <a href="" id="name-7" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-8" class="image-link">
+                        <img src="" alt="img-8" id="img-8" class="image-item">
+                    </a>
+                <a href="" id="name-8" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-9" class="image-link">
+                        <img src="" alt="img-9" id="img-9" class="image-item">
+                    </a>
+                <a href="" id="name-9" class="name-item"></a>
+                </div>
+                <div class="image-item-wrapper">
+                    <a href="" id="link-10" class="image-link">
+                        <img src="" alt="img-10" id="img-10" class="image-item">
+                    </a>
+                <a href="" id="name-10" class="name-item"></a>
+                </div>
+            </div>
+
+            <!-- Next Slide Button -->
+            <button id="next-slide" class="slide-button material-symbols-rounded">&#8250;</button>
+        </div>
+
+        <!-- Scrollbar -->
+        <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <div class="last_box">
+        <p class="prev">Last in</p>
+        <hr/>
+        <div class="last_info">
+            <a href="" id="link-11" class="image-link"><img src="" alt="img" id="img-11" class="image_last"></a>
+            <div class="text">
+                <a href="" id="name-11" class="name_last"></a>
+                <a href="" id="author-11" class="author_last"></a>
+                <p id="desc_last" class="desc_last"></p>
+            </div>
+        </div>
+        <hr/>
+    </div>
+</div>
+
+<div class="footer">
+    <p class="sentence">“If you don’t like to read, you haven’t found the right book.”</p>
+    <p class="authr">J.K. Rowling</p>
+</div>
+</body>
+</html>

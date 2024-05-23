@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/* Box */
+.box
+{
+    display: flex;
+    padding-left: 22%;
+}
+.author_info{
+    width: 46%;
+}
+.author_image
+{
+    height: 360px;
+    width: auto;
+    max-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.author_info hr{
+    width: 100%;
+    border: 1px solid #c1cccd;
+    margin-bottom: 5px;
+}
+.author_name
+{
+    font-size: 28px;
+}
+.datebrth
+{
+    font-size: 24px;
+    color: #BEBEC0;
+    margin-left: 10px;
+}
+.country
+{
+    font-size: 18px;
+    color: #A0B6B7;
+}
+.bio{
+    word-wrap: break-word;
+    width: 100%;
+}
+.author_name, .datebrth
+{
+    display: inline;
+}
+
+
+.books_list
+{
+    padding-left: 160px;
+    width: 40%;
+    font-size: 20px;
+}
+.books{
+    font-size: 28px;
+}
+.books_list hr{
+    width: 100%;
+    border: 1px solid #c1cccd;
+    margin-bottom: 40px;
+}
+.books_list a{
+    text-decoration: none;
+    color: #000;
+}
+
+.date{
+    color: #BEBEC0;
+    margin-left: 10px;
+}
+.name, .date{
+    display: inline;
+}

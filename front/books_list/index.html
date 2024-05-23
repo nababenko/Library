@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Full list</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../header.css">
+    <script src="../header.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" ></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../main_page/index.html" class="main">Main page</a>
+            <a href="../admin_validation/index.html" class="admin">Admin page</a>
+            <a href="../random_facts_page/index.html" class="facts">Random facts about books</a>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="What are you looking for?" class="search" onkeyup="searchBooks()">
+        <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <a href="../admin_validation/index.html"><img src="../../resources/icons/admin.png" alt="admin_icon" class="icon"/></a>
+</div>
+<div class="menu">
+
+    <a href="../Genres/index.html" >Genres</a>
+    <a href="../Authors/index.html">Authors</a>
+    <a href="../Keywords/index.html">Keywords</a>
+    <a href="index.html">Full list</a>
+
+</div>
+<div class="box">
+    <p class="prev">This is the full list of all books that we have </p>
+    <div id="list" class="list">
+
+
+    </div>
+
+</div>
+
+</body>
+</html>

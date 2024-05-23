@@ -1,0 +1,124 @@
+.header{
+    font-size: 24px;
+    color: #798E89;
+    padding-left: 45%;
+    margin-bottom: 30px;
+}
+.menu{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.menu p {
+    margin-left: 32px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.menu a {
+    color: #798E89;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #ccc;
+}
+.menu p, a{
+    display: inline-block;
+}
+.table_div{
+    margin-left: 20px;
+    width: 80%;
+    max-height: 498px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+.table_div button{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    color: #fff;
+    cursor: pointer;
+}
+.table_div button:hover{
+    background-color: #798E89;
+}
+
+.prev{
+    font-size: 20px;
+}
+.box{
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+.create_div{
+    margin-left: 20px;
+}
+.create_div input{
+    border-radius: 10px;
+    border: 1px solid #798E89;
+}
+
+.create_div button{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    color: #fff;
+    cursor: pointer;
+    width: 66px;
+    font-size: 16px;
+}
+.create_div button:hover{
+    background-color: #798E89;
+}
+.long{
+    height: 64px;
+}
+
+/* photo input button*/
+#photoInput {
+    display: none;
+}
+
+.custom-file-upload {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #798E89;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.custom-file-upload.uploaded {
+    background-color: #ccc;
+}
+
+.custom-file-upload:hover {
+    background-color: white;
+    color: #798E89;
+}

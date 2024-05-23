@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+hr{
+    width: 72%;
+    border: 1px solid #c1cccd;
+    margin-bottom: 15px;
+}
+
+
+
+/* Box */
+.box{
+    padding-left: 22%;
+}
+.info_box
+{
+    display: flex;
+}
+.prev{
+    color: #BEBEC0;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.list{
+    font-size: 24px;
+    width: 35%;
+}
+.genre{
+    padding-bottom: 5px;
+}
+.genre:hover{
+    color: #53635F;
+    cursor: pointer;
+}
+
+.book-list{
+
+    width: 38%;
+}
+.book{
+    font-size: 20px;
+    border-bottom: 1px solid #798E89;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+a.book-link{
+    text-decoration: none;
+    color: #798E89;
+}

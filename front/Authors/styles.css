@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+hr{
+    width: 72%;
+    border: 1px solid #c1cccd;
+    margin-bottom: 15px;
+}
+
+
+
+
+/*Box*/
+.box{
+    padding-left: 22%;
+}
+.filter_by, .filter-buttons{
+    display: inline-block;
+    cursor: default;
+}
+button {
+    margin-left: 9px;
+    border: none;
+    height: 20px;
+    width: 20px;
+    font-size: 16px;
+    color: #798E89;
+    background-color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: #ccc;
+    color: #fff;
+}
+.disabled {
+    color: #ccc;
+}
+.disabled:hover {
+    cursor: default;
+}
+.prev{
+    color: #BEBEC0;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.alist{
+    width: 73%;
+    padding-top: 16px;
+}
+.author_div{
+    margin-top: 32px;
+}
+.bio{
+    margin-top: 16px;
+    padding-left: 26px;
+}
+.name{
+    text-decoration: none;
+    font-size: 18px;
+    color: #798E89;
+}
+.footer{
+    height: 120px;
+}

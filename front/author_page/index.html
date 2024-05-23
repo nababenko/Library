@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Author page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../header.css">
+    <script src="../header.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" ></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../main_page/index.html" class="main">Main page</a>
+            <a href="../admin_validation/index.html" class="admin">Admin page</a>
+            <a href="../random_facts_page/index.html" class="facts">Random facts about books</a>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="What are you looking for?" class="search" onkeyup="searchBooks()">
+        <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <a href="../admin_validation/index.html"><img src="../../resources/icons/admin.png" alt="admin_icon" class="icon"/></a>
+</div>
+<div class="menu">
+
+    <a href="../Genres/index.html" >Genres</a>
+    <a href="../Authors/index.html">Authors</a>
+    <a href="../Keywords/index.html">Keywords</a>
+    <a href="../books_list/index.html">Full list</a>
+
+</div>
+<div class="box">
+    <div class="author_info">
+        <p class="author_name" id="author"></p>
+        <p class="datebrth" id="datebrth"></p>
+        <hr/>
+        <p class="country" id="country">Country</p>
+        <img src="" alt="author_image" class="author_image" id="author_image"/>
+        <p class="bio" id="bio"></p>
+    </div>
+
+    <div class="books_list">
+        <p class="books">Books</p>
+        <hr/>
+        <div id="books"></div>
+    </div>
+
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
